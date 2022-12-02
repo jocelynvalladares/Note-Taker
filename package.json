@@ -9,10 +9,11 @@
     "author": "jocelyn valladares",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.1",
+        "bootstrap": "^5.2.3",
+        "express": "^4.18.2",
         "inquirer": "^7.3.3",
         "npm": "^9.1.3",
-        "uuid": "^8.3.0",
+        "uuid": "^8.3.2",
         "v1": "^1.0.0",
         "v4": "0.0.1"
     },
