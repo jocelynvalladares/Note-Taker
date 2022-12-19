@@ -1,23 +1,33 @@
 {
-  "name": "note-taker",
-  "version": "1.0.0",
-  "description": "An application that is used to write and save notes. This application uses Express.js",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jocelynvalladares/Note-Taker"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jocelynvalladares/Note-Taker"
-  },
-  "homepage": "https://github.com/jocelynvalladares/Note-Taker/issues",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "note-taker",
+    "version": "1.0.0",
+    "description": "An app that can write, save, and delete notes.",
+    "main": "./Develop/public/assets/js/index.js",
+    "scripts": {
+        "test": "jest --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jocelynvalladares/Note-Taker"
+    },
+    "keywords": [
+        "application",
+        "mysql",
+        "express",
+        "note",
+        "taker",
+        "coding",
+        "bootcamp"
+    ],
+    "author": "Crystal Ly",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jocelynvalladares/Note-Taker/issues"
+    },
+    "homepage": "https://github.com/jocelynvalladares/Note-Taker/blob/main/README.md",
+    "dependencies": {
+        "express": "^4.17.1",
+        "jest": "^25.5.0",
+        "mysql": "^2.18.0"
+    }
 }
